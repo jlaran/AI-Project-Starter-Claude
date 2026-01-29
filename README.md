@@ -41,7 +41,7 @@ cp -r .claude /path/to/your/project/
 **Option 2:** Clone and use as a starting point:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/AI-Project-Starter-Claude.git my-project
+git clone https://github.com/jlaran/AI-Project-Starter-Claude.git my-project
 cd my-project
 ```
 
@@ -232,7 +232,7 @@ See our **[Contributing Guide](./CONTRIBUTING.md)** for detailed instructions.
 
 ```bash
 # Fork and clone
-git clone https://github.com/YOUR_USERNAME/AI-Project-Starter-Claude.git
+git clone https://github.com/jlaran/AI-Project-Starter-Claude.git
 
 # Create a branch
 git checkout -b feat/my-new-agent

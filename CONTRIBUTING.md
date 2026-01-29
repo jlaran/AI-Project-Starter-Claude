@@ -35,13 +35,13 @@ By participating in this project, you agree to maintain a respectful and inclusi
 
 2. **Clone your fork**:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/AI-Project-Starter-Claude.git
+   git clone https://github.com/jlaran/AI-Project-Starter-Claude.git
    cd AI-Project-Starter-Claude
    ```
 
 3. **Add upstream remote**:
    ```bash
-   git remote add upstream https://github.com/ORIGINAL_OWNER/AI-Project-Starter-Claude.git
+   git remote add upstream https://github.com/jlaran/AI-Project-Starter-Claude.git
    ```
 
 4. **Keep your fork updated**:
