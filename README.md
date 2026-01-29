@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="./.claude/agents"><img src="https://img.shields.io/badge/Agents-6-blue?style=flat-square" alt="6 Agents"></a>
+  <a href="./.claude/agents"><img src="https://img.shields.io/badge/Agents-10-blue?style=flat-square" alt="10 Agents"></a>
   <a href="./.claude/commands"><img src="https://img.shields.io/badge/Commands-6-orange?style=flat-square" alt="6 Commands"></a>
   <a href="./.claude/skills"><img src="https://img.shields.io/badge/Skills-6-green?style=flat-square" alt="6 Skills"></a>
 </p>
@@ -55,12 +55,16 @@ Specialized personas with domain expertise that Claude Code can adopt for specif
 
 | Agent | Description |
 |:------|:------------|
+| **project-orchestrator** | Coordinates complex tasks across domains and specialists |
 | **code-reviewer** | Thorough code reviews with security focus and constructive feedback |
 | **architect** | System design, technology decisions, and architectural patterns |
 | **debugger** | Systematic bug hunting and root cause analysis |
 | **security-auditor** | OWASP-based vulnerability detection and security best practices |
 | **git-expert** | Professional git workflows, commits, branches, and PRs |
 | **project-maintainer** | Code hygiene, documentation, and project organization |
+| **ux-expert** | User experience, usability, and user flow optimization |
+| **designer** | UI/visual design, design systems, and component specifications |
+| **information-architect** | Content structure, navigation, and taxonomy design |
 
 ### Commands
 
@@ -200,12 +204,16 @@ command here
 ```
 .claude/
 ├── agents/                    # Specialist personas
+│   ├── project-orchestrator.md
 │   ├── code-reviewer.md
 │   ├── architect.md
 │   ├── debugger.md
 │   ├── security-auditor.md
 │   ├── git-expert.md
-│   └── project-maintainer.md
+│   ├── project-maintainer.md
+│   ├── ux-expert.md
+│   ├── designer.md
+│   └── information-architect.md
 ├── commands/                  # Executable workflows
 │   ├── semantic-commit.md
 │   ├── git-branch.md
